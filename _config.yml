@@ -13,10 +13,10 @@ headercolor: "#FFFFFF"
 logo: ""
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
-disqus_shortname: project-pages
-g-analytics: UA-75881392-1
+github_username:  opendataivs
+project_repository: opendatavis.github.io
+disqus_shortname: opendatavis
+g-analytics: UA-99999999-1
 altmetric: true
 
 # Build settings
