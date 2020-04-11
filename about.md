@@ -1,9 +1,14 @@
 ---
 layout: page
 title: "About"
-description: "Why use Project Pages?"
+description: "What is OpenDataVis?"
 header-img: "img/home-bg.jpg"
 ---
 
-Project Pages is a research blog tool that allows you to quickly show your latest results to an advisor, collaborators or your mom.
-	
+Welcome to the OpenDataVis!
+
+Data Visualizations enhance the presentation of data and insights derived from it. Industry has several visualization tools mostly dominated by proprietary softwares.
+
+This is an effort to create a repository of open-source code for visualizations minimizing the dependency on Visualization Softwares.
+
+Note: This is still a work in progress.
