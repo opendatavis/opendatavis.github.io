@@ -1,7 +1,7 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: sai
+name: saikrupan
 display_name: Sai Krupan Seela
 position: Data Scientist
 bio: To be Updated.
