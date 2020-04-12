@@ -187,11 +187,11 @@
   h6 {
     @include mainFont(700);
     margin-top: 0;
-    padding-top: rem(50px);
+    padding-top: rem(10px);
 
     @include media(">=sm") {
       margin-top: 0;
-      padding-top: rem(60px);
+      padding-top: rem(10px);
     }
   }
   h1 {
