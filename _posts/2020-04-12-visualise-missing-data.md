@@ -17,13 +17,9 @@ paginate: false
 Have you ever wondered how to visualise missing values in your data? Let's do it in a two lines of code with the help of a custom function created using python libraries.
 
 This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. The function gives an amazing plot representing the non missing data and missing  in black & white colors as output. It's capability of handling huge amounts of data is quite impressive. I have created a plot for a dataset of 500000 observations within few seconds using it.
-
 And then I thought why not recreate the same in Python and here it is.
-
 ### Datasource: [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv)
-
 ### Code:
-
 #### Import Libraries
 ```python
 # Import Libraries
@@ -34,13 +30,10 @@ import pandas as pd
 from itertools import product
 import plotly.graph_objects as go
 ```
-
 #### Read Data
-
 ```python
 df_data = pd.read_csv("Sleep_Missing_Data.csv")
 ```
-
 #### Create custom function
 ```python
 def fn_vis_msng_data(df_):
@@ -102,8 +95,6 @@ def fn_vis_msng_data(df_):
 
   fig.show()
 ```
-
-
 #### Call the custom function and pass your dataframe
 ```python
 fn_vis_msng_data(df_data)
