@@ -4,8 +4,8 @@ layout: post
 title: Visualise Missing Data
 subtitle: A short and simple code in Python
 description: Have you ever wondered how to visualise missing values in your data? Let's do it in a two lines of code...
-image: https://drive.google.com/file/d/1F6abOcwAUtZLfzW2I178KwLlFpIZj6dC/preview
-optimized_image: https://drive.google.com/file/d/1Jip12OO68IPFlZwRmt9TUV5-0-U-8iYN/preview
+image: https://drive.google.com/uc?export=view&id=1F6abOcwAUtZLfzW2I178KwLlFpIZj6dC
+optimized_image: https://drive.google.com/uc?export=view&id=1Jip12OO68IPFlZwRmt9TUV5-0-U-8iYN
 category: data
 tags: 
   - Missing Data
