@@ -1,7 +1,7 @@
 # Site Settings
 name: OpenDataVis
 title: OpenDataVis
-description: An Open Source Code Repository for Data Visualisations.
+description: An Open Source Code Repository for Data Visualisations
 tags:
   - blog
   - template
@@ -9,8 +9,8 @@ tags:
   - theme
   - netlify
 email: sskrupan@gmail.com
-disqus_username: disqus_username
-show_hero: true
+disqus_username: opendatavis
+show_hero: false
 menu:
   - title: Home
     url: /

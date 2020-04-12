@@ -1,14 +1,14 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: OpenDataVis
+title: OpenDataVis | A blog theme for Jekyll
+description: An Open Source Code Repository for Data Visualisations
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: sskrupan@gmail.com
+disqus_username: opendatavis
 show_hero: true
 menu:
   - title: Home
