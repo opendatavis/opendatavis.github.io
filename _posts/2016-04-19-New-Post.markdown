@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      New Post
-author:     Ahmet Cecen
+author:     Sai Krupan Seela
 tags: 		post template
 subtitle:  	Some Short Description of Post
 category:  project1
