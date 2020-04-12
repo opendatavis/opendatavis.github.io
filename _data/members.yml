@@ -5,7 +5,7 @@
   img: ""
   github: krupanss
   linkedin: "https://www.linkedin.com/in/krupan/"
-  bio: Yet to Update
+  bio: Sai is a Data Scientist with extensive experience in Machine Learning, Predictive Modelling, Big Data Analytics, Data Engineering with the technology stack of Python, PySpark, Spark-Scala, Hadoop, Hive, R, Tableau, Microsoft SQL, MSBI.He has an extensive knowledge in data science algorithms and techniques across different streams, viz. supervised and unsupervised machine learning and NLP.
   visible: true
    
 - name: Anagha Manurkar
@@ -13,7 +13,7 @@
   img: ""
   github: krupanss
   linkedin: "https://www.linkedin.com/in/anaghamanurkar/"
-  bio: Yet to Update
+  bio: Anagha Manurkar is a Data Analytics consultant experienced in developing Analytics and Business Intelligence solutions with technical stack of PowerBI, Microsoft SQL, Microsoft BI. She is currently upskilling in Big Data and Python.
   visible: true
 
 - name: Siva Kishore Seela
@@ -21,5 +21,5 @@
   img: ""
   github: krupanss
   linkedin: "https://www.linkedin.com/in/sivakishore92/"
-  bio: Yet to Update
+  bio: Siva is a Data Scientist with great experience in Predictive Modelling, Machine Learning, Python, Oracle PL/SQL, ASP.NET MVC.
   visible: true
