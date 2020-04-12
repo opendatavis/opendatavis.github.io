@@ -4,8 +4,8 @@ layout: post
 title: Visualise Missing Data
 subtitle: A short and simple code in Python
 description: Have you ever wondered how to visualise missing values in your data? Let's do it in a two lines of code...
-image: https://photos.app.goo.gl/9dAuJE39MLHn5aU29
-optimized_image: https://photos.app.goo.gl/h9gWV4WTmxZJGzBC8
+image: https://drive.google.com/file/d/1F6abOcwAUtZLfzW2I178KwLlFpIZj6dC/preview
+optimized_image: https://drive.google.com/file/d/1Jip12OO68IPFlZwRmt9TUV5-0-U-8iYN/preview
 category: data
 tags: 
   - Missing Data
@@ -20,11 +20,11 @@ This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/nota
 
 And then I thought why not recreate the same in Python and here it is.
 
-## Datasource: [Sleep_Data](https://github.com/opendatavis/opendatavis.github.io/Data/Sleep_Data.csv)
+### Datasource: [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv)
 
-## Code:
+### Code:
 
-### Import Libraries
+#### Import Libraries
 ```python
 # Import Libraries
 import os
@@ -35,13 +35,13 @@ from itertools import product
 import plotly.graph_objects as go
 ```
 
-### Read Data
+#### Read Data
 
 ```python
 df_data = pd.read_csv("Sleep_Missing_Data.csv")
 ```
 
-### Create custom function
+#### Create custom function
 ```python
 def fn_vis_msng_data(df_):
   # Identify Missing Data
@@ -104,7 +104,7 @@ def fn_vis_msng_data(df_):
 ```
 
 
-### Call the custom function and pass your dataframe
+#### Call the custom function and pass your dataframe
 ```python
 fn_vis_msng_data(df_data)
 ```
