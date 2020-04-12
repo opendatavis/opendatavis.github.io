@@ -28,11 +28,11 @@ pre {
 }
 
 .highlight {
-  margin: rem(20px) 0;
+  margin: rem(5px) 0;
 
   @include media(">=sm") {
     word-wrap: break-word;
-    margin: rem(29px) 0;
+    margin: rem(5px) 0;
   }
 
   .hll {
