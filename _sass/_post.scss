@@ -139,7 +139,7 @@
     color: $texts;
 
     code {
-      font-size: rem(15px);
+      font-size: rem(5px);
       background: #282a36;
       color: #fff;
       word-wrap: break-word;
@@ -147,7 +147,7 @@
       border-radius: 1px;
 
       @include media(">=sm") {
-        font-size: rem(12px);
+        font-size: rem(5px);
       }
     }
   }
