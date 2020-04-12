@@ -143,11 +143,11 @@
       background: #282a36;
       color: #fff;
       word-wrap: break-word;
-      padding: rem(3px) rem(5px);
-      border-radius: 3px;
+      padding: rem(1px) rem(1px);
+      border-radius: 1px;
 
       @include media(">=sm") {
-        font-size: rem(17px);
+        font-size: rem(12px);
       }
     }
   }
