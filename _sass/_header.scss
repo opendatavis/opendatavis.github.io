@@ -42,6 +42,12 @@ body {
     }
   }
 
+  .head_desc {
+    color: $accentDark;
+    font-size: rem(16px);
+    font-weight: normal;
+  }
+
   .version {
     color: $accentDark;
     font-size: rem(10px);
