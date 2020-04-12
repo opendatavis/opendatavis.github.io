@@ -1,70 +1,97 @@
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-	{% include ogmeta.html %}
-	
-	{% if site.altmetric == true %}
 
-	{% include altmetric.html %}
+    {% assign title = '' %}
+    {% if page.layout == 'author' %}
+        {% assign title = page.display_name %}
+    {% elsif page.title %}
+        {% assign title = page.title | append: " | " | append: site.name %}
+    {% else %}
+        {% assign title = site.title %}
+    {% endif %}
 
-	{% endif %}
+    {% assign image = '' %}
+    {% if page.image %}
+        {% assign image = page.image %}
+    {% else %}
+        {% assign image = "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
 
-	<link rel='shortcut icon' type='image/png' href='{{ site.baseurl }}/favicon.ico' />
+    {% assign description = '' %}
+    {% if page.description %}
+        {% assign description = page.description | strip_html | strip_newlines | truncate: 160 %}
+    {% else %}
+        {% assign description = site.description %}
+    {% endif %}
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% assign url = '' %}
+    {% if paginator.page_trail %}
+        {% assign url = paginator.first_page_path | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% else %}
+        {% assign url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    {% if page.tags %}
+        <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    {% endif %}
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl | prepend: site.url }}">
-	
-	<!-- Adjust Colors -->
-    <link rel="stylesheet" href="{{ "/colorscheme.css" | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta property="twitter:image:src" content="{{ image }}">
+    {% if site.twitter_username %}
+        <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    {% endif %}
 
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="{{ url }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:site_name" content="{{ site.title }}">
 
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-touch-icon-152x152.png" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<!-- Math Jax -->
-	<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-	</script>
-	<script type="text/javascript"
-	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-	</script>
-	<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({
-		TeX: { equationNumbers: { autoNumber: "AMS" } }
-	});
-	</script>
+    <!-- Windows 8 Tile Icons -->
+    <meta name="application-name" content="{{ site.name }}">
+    <meta name="msapplication-TileColor" content="#141414">
+    <meta name="msapplication-square70x70logo" content="smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="widetile.png" />
+    <meta name="msapplication-square310x310logo" content="largetile.png" />
+    
+    <!-- Android Lolipop Theme Color -->
+    <meta name="theme-color" content="#141414">
 
-	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js" type="text/javascript"></script>-->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
-    <!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
-	<!-- Bootstrap Core JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Include extra styles -->
+    {% include extra-css.html %}
 
-	<!-- Custom Theme JavaScript -->
-	<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
-	
-	{% include analytics.html %}
-	
+    <!-- JavaScript enabled/disabled -->
+    <script>
+        document.querySelector('html').classList.remove('no-js');
+    </script>
 </head>

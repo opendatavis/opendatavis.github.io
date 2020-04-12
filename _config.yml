@@ -1,158 +1,103 @@
-# Site settings
-title: OpenDataVis
-description: "An Open Source Code Repository for Data Visualisations"
-url: "https://opendatavis.github.io/"
+# Site Settings
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: youremail@xyz.com
+disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
 
 
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
 
 
-# Secondary Parameters
-baseurl: ""
-header-img: img/home-bg.jpg
-headercolor: "#FFFFFF"
-logo: ""
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
 
-# Tertiary Parameters
-github_username:  opendatavis
-project_repository: opendatavis.github.io
-disqus_shortname: opendatavis
-g-analytics: UA-99999999-1
-altmetric: true
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
 
 # Build settings
-gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
 
-# Jekyll Settings
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
 
-defaults:
-  -
-    scope:
-      path: "projects"
-      type: "pages"
-    values:
-      layout: "project"
-      header-img: "img/home-bg.jpg"
+# SASS
+sass:
+  style: compressed
 
-# Prose Settings
-prose:
-  ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'https://opendatavis.github.io/'
-  ispp: true
-  media: 'img'
-  metadata:
-    projects:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "description"
-        field:
-          element: "text"
-          label: "Description"
-          value: ""
-      - name: "category"
-        field:
-          element: "text"
-          label: "Project"
-          value: ""           
-    _posts:
-      - name: "subtitle"
-        field:
-          element: "text"
-          label: "Sub-Title (Short Description)"
-          value: ""
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Choose Layout"
-          placeholder: "Layouts"
-          options:
-            - name: "Post"
-              value: "post"
-            - name: "Slide"
-              value: "slide"
-            - name: "Projector"
-              value: "projector"
-            - name: "Notebook"
-              value: "notebook"
-            - name: "Ply Surface"
-              value: "plysurface"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags (seperate with whitespace)"
-          value: ""
-      - name: "category"
-        field:
-          element: "text"
-          label: "Project"
-          value: ""    
-      - name: "horizontal"
-        field:
-          element: "hidden"
-          value: </section></section><section markdown="1" data-background="http://opendatavis.github.io/img/slidebackground.png"><section markdown="1">
-      - name: "vertical"
-        field:
-          element: "hidden"
-          value: </section><section markdown="1">
-      - name: "slideinit"
-        field:
-          element: "hidden"
-          value: <section markdown="1" data-background="http://opendatavis.github.io/img/slidebackground.png"><section markdown="1">
-      - name: "theme"
-        field:
-          element: "select"
-          label: "Theme (Slide)"
-          placeholder: "Theme (Slide)"
-          options:
-            - name: "Beige"
-              value: "beige"
-            - name: "Blood"
-              value: "blood"
-            - name: "Moon"
-              value: "moon"          
-            - name: "Night"
-              value: "night"
-            - name: "Sky"
-              value: "sky"
-            - name: "Solarized"
-              value: "solarized"             
-      - name: "trans"
-        field:
-          element: "select"
-          label: "Transition (Slide)"
-          placeholder: "Transition (Slide)"
-          options:
-            - name: "Cube"
-              value: "cube"
-            - name: "Page"
-              value: "page"
-            - name: "Concave"
-              value: "concave"          
-            - name: "Linear"
-              value: "linear"
-            - name: "Fade"
-              value: "fade"
-            - name: "None"
-              value: "none"             
-      - name: "visualworkflow"
-        field:
-          element: "checkbox"
-          label: "Visual Workflow Chart (Some Layouts)"
-          value: "true"
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v3.1.0
