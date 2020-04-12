@@ -5,13 +5,14 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<!-- <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200"> -->
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Welcome to the OpenDataVis!
+
+Data Visualizations enhance the presentation of data and insights derived from it. Industry has several visualization tools mostly dominated by proprietary softwares.
+
+This is an effort to create a repository of open-source code for visualizations minimizing the dependency on Visualization Softwares.
+
+Note: This is still a work in progress.
