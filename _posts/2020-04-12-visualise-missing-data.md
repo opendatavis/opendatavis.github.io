@@ -24,12 +24,15 @@ And then I thought why not recreate the same in Python and here it is.
 ### Code:
 
 #### Import Libraries
-
+<br>
+<br>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 
 
-#### Read the dataset [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
+Read the dataset [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
+<br>
+<br>
 
 <!-- Gist: Read data -->
 <script src="https://gist.github.com/opendatavis/40a95f13ea7fcb069d90f579f10ba5bf.js"></script>
@@ -138,6 +141,8 @@ And then I thought why not recreate the same in Python and here it is.
 ### Identify Missing Values and Transform Data
 
 Let us identify the columns with missing values and number of missing records.
+<br>
+<br>
 
 <!-- Gist: Find Missing data -->
 <script src="https://gist.github.com/opendatavis/169f1c6fcd44885a2841b314b745fdd9.js"></script>
@@ -198,7 +203,8 @@ Let us identify the columns with missing values and number of missing records.
 
 
 Add Row_Index as a column and use it to identify missing rows in the plot. We need only missing columns from the dataframe. Also, let us binarize data by mapping missing values to 0 and non-missing values to 1.
-
+<br>
+<br>
 <!-- Gist: Binarize data -->
 <script src="https://gist.github.com/opendatavis/c4d507db6a6b4b0653643f901cf3bedd.js"></script>
 
