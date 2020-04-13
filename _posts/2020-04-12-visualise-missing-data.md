@@ -24,7 +24,7 @@ The easiest way to check which category your missing data falls in to is by visu
 
 This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
 
-Here I am recreating it same in Python.
+Here I am recreating it in Python.
 
 ## Let's start coding:
 
