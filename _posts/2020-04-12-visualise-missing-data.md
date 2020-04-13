@@ -27,8 +27,8 @@ This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/nota
 Here I am recreating it in Python.
 
 ## Let's start coding:
-
 ### Import Libraries
+<br/>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 
