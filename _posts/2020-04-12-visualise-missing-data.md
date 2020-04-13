@@ -26,8 +26,11 @@ This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/nota
 
 Here I am recreating it in Python.
 
-## Let's start coding:
+## Let's start coding
 ### Import Libraries
+
+Import the libraries pandas and plotly graph objects.
+<br/>
 <br/>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
@@ -143,7 +146,7 @@ Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatav
 
 ### Identify Missing Values
 
-Let us identify the columns with missing values and number of missing records.
+Let's identify the columns with missing values and number of missing records in each of them.
 <br/>
 <br/>
 
@@ -289,7 +292,7 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
 
 
 ### Transform data
-Re-structure data using the pandas function `melt` and use it for plotting.
+Re-structure data using the pandas function `melt` to use it for plotting.
 <br/>
 <br/>
 
@@ -387,7 +390,7 @@ Re-structure data using the pandas function `melt` and use it for plotting.
 
 ### Plot - Heat map
 
-Let us plot the data as Heat map to visualise the pattern of missing and non-missing values. 
+Plot the data as Heat map to visualise the pattern of missing and non-missing values. 
 <br/>
 <br/>
 
