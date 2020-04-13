@@ -37,6 +37,7 @@ import plotly.graph_objects as go
 #### Read Data
 ```python
 df_data = pd.read_csv("Sleep_Missing_Data.csv")
+df_data.head(5)
 ```
 #### Create custom function
 ```python
@@ -103,3 +104,8 @@ def fn_vis_msng_data(df_):
 ```python
 fn_vis_msng_data(df_data)
 ```
+
+### Missing Data Visualization
+
+[Sleep_Data](/vispages/missing_data_vis.html)
+
