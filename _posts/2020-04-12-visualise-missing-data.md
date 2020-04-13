@@ -29,7 +29,6 @@ Here I am recreating it in Python.
 ## Let's start coding:
 
 ### Import Libraries
-<br/>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 
@@ -291,6 +290,8 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
 
 ### Transform data
 Re-structure data using the pandas function `melt` and use it for plotting.
+<br/>
+<br/>
 
 <!-- Gist: Melt Data -->
 <script src="https://gist.github.com/opendatavis/ba0490bfa635440d47b5863241791213.js"></script>
@@ -387,7 +388,8 @@ Re-structure data using the pandas function `melt` and use it for plotting.
 ### Plot - Heat map
 
 Let us plot the data as Heat map to visualise the pattern of missing and non-missing values. 
-<br/> 
+<br/>
+<br/>
 
 <!-- Gist: Plot Heat map -->
 <script src="https://gist.github.com/opendatavis/48b37ed6e3140c6202daea7e90d25668.js"></script>
