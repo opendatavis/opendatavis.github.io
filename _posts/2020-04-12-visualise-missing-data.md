@@ -20,7 +20,7 @@ Missing values in a data set is quite common and have significance effect on the
 
 > Missing data can be either "Missing At Random (MAR)" or "Missing Completely At Random (MCAR)" or "Missing Not At Random (MNAR)"
 
-The easiest way to check which category your missing data falls in to is by visualising it. Have you ever wondered how to visualise missing values in your data? Let's do it in less than 25 lines of code using basic `pandas` and `plotly` functions. 
+The easiest way to check which category your missing data falls in to is by visualising it. Have you ever wondered how to visualise missing values in your data? Let's do it using basic `pandas` and `plotly` functions. 
 
 This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
 
@@ -28,13 +28,13 @@ Here I am recreating it in Python.
 
 ## Let's start coding:
 
-#### Import Libraries
+### Import Libraries
 <br>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 
 
-Read the dataset [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
+Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
 <br>
 <br>
 
@@ -142,7 +142,7 @@ Read the dataset [Sleep_Data](https://raw.githubusercontent.com/opendatavis/open
     </table>
 </div>
 
-#### Identify Missing Values
+### Identify Missing Values
 
 Let us identify the columns with missing values and number of missing records.
 <br>
@@ -289,7 +289,7 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
 </div>
 
 
-#### Transform data
+### Transform data
 Re-structure data using the pandas function `melt` and use it for plotting.
 
 <!-- Gist: Melt Data -->
@@ -387,16 +387,17 @@ Re-structure data using the pandas function `melt` and use it for plotting.
 ### Plot - Heat map
 
 Let us plot the data as Heat map to visualise the pattern of missing and non-missing values. 
-
-Here you go...!!!
-
-We have an interactive plot with row index on x-axis and columns on y-axis. We can hover over the plot to see the column, row index and the missing index which tells if the data is missing or not. 
+<br> 
 
 <!-- Gist: Plot Heat map -->
 <script src="https://gist.github.com/opendatavis/48b37ed6e3140c6202daea7e90d25668.js"></script>
 
 <!-- Plotly java script -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+
+Here you go...!!!
+
+We have an interactive plot with row index on x-axis and columns on y-axis. We can hover over the plot to see the column, row index and the missing index which tells if the data is missing or not.
 
 > Missing value of 0 indicates data is missing and 1 indicates data as not.
 
