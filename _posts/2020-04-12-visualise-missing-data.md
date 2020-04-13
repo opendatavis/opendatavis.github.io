@@ -22,6 +22,9 @@ And then I thought why not recreate the same in Python and here it is.
 ### Datasource: [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv)
 ### Code:
 #### Import Libraries
+
+<script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
+
 ```python
 # Import Libraries
 import os
