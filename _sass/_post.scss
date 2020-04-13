@@ -268,7 +268,7 @@
   table {
     @include mainFont(400);
     font-size: rem(12px);
-    line-height: rem(35px);
+    line-height: rem(5px);
     letter-spacing: 0.025rem;
     margin: rem(50px) auto;
     border-collapse: collapse;
@@ -284,7 +284,7 @@
 
       @include media(">=sm") {
         border: rem(2px) solid #ccc;
-        padding: rem(10px) rem(20px);
+        padding: rem(8px) rem(16px);
       }
     }
   }
