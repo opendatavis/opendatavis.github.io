@@ -1,30 +1,34 @@
 ---
 date: 2020-04-12 16:40:58
 layout: post
-title: Visualise Missing Data
-subtitle: A short and simple code in Python
-description: Have you ever wondered how to visualise missing values in your data? Let's do it in a two lines of code...
+title: Visualise Missing Data and identify the missing pattern in Python.
+subtitle: An interactive heat map in less than 25 lines of code. 
+description: Missing Data! Is it MAR or MCAR or MNAR? Find it out in less than a minute by this interactive heat map.
 image: https://drive.google.com/uc?export=view&id=1F6abOcwAUtZLfzW2I178KwLlFpIZj6dC
 optimized_image: https://drive.google.com/uc?export=view&id=1Jip12OO68IPFlZwRmt9TUV5-0-U-8iYN
 category: data
 tags: 
   - Missing Data
-  - Python Missing Data
+  - Python
+  - Data Visualization
+  - Plotly
 author: saikrupan
 paginate: false
 ---
 
-Have you ever wondered how to visualise missing values in your data? Let's do it in a two lines of code with the help of a custom function created using python libraries.
+Missing values in a data set is quite common and have significance effect on the analysis and machine learning model training.
 
-This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. The function gives an amazing plot representing the non missing data and missing  in black & white colors as output. It's capability of handling huge amounts of data is quite impressive. I have created a plot for a dataset of 500000 observations within few seconds using it.
+> Missing data can be either "Missing At Random (MAR)" or "Missing Completely At Random (MCAR)" or "Missing Not At Random (MNAR)"
 
-And then I thought why not recreate the same in Python and here it is.
-### Datasource: [Sleep_Data](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv)
+The easiest way to check which category your missing data falls in to is by visualising it. Have you ever wondered how to visualise missing values in your data? Let's do it in less than 25 lines of code using basic `pandas` and `plotly` functions. 
 
-### Code:
+This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
+
+Here I am recreating it same in Python.
+
+## Let's start coding:
 
 #### Import Libraries
-<br>
 <br>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
@@ -138,7 +142,7 @@ Read the dataset [Sleep_Data](https://raw.githubusercontent.com/opendatavis/open
     </table>
 </div>
 
-### Identify Missing Values and Transform Data
+#### Identify Missing Values
 
 Let us identify the columns with missing values and number of missing records.
 <br>
@@ -285,7 +289,8 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
 </div>
 
 
-Re-structure data using the function melt and use it for plotting.
+#### Transform data
+Re-structure data using the pandas function `melt` and use it for plotting.
 
 <!-- Gist: Melt Data -->
 <script src="https://gist.github.com/opendatavis/ba0490bfa635440d47b5863241791213.js"></script>
@@ -379,23 +384,21 @@ Re-structure data using the function melt and use it for plotting.
 </div>
 
 
-# Plot - Heat map
+### Plot - Heat map
 
-Let us plot the data as Heat map to generate a pattern of missing and non-missing values. 
-
+Let us plot the data as Heat map to visualise the pattern of missing and non-missing values. 
 
 Here you go...!!!
 
-We have an interactive plot with row index on x-axis and columns on y-axis. We can hover over the plot to see the column, row index and if the missing index which tells if the data is missing or not. 
-
-> Missing value of 0 indicates data is missing and 1 indicates data as not.
+We have an interactive plot with row index on x-axis and columns on y-axis. We can hover over the plot to see the column, row index and the missing index which tells if the data is missing or not. 
 
 <!-- Gist: Plot Heat map -->
 <script src="https://gist.github.com/opendatavis/48b37ed6e3140c6202daea7e90d25668.js"></script>
 
-
 <!-- Plotly java script -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+
+> Missing value of 0 indicates data is missing and 1 indicates data as not.
 
 
 <!-- HTML: Plotly chart  -->
@@ -416,3 +419,6 @@ We have an interactive plot with row index on x-axis and columns on y-axis. We c
 
 </script>
 </div>
+
+
+Plotly provides several customization options to the charts interactively. You can play around and make the charts more interesting. 
