@@ -139,16 +139,6 @@ Let's identify the columns with missing values and number of missing records in 
 <!-- Gist: Find Missing data -->
 <script src="https://gist.github.com/opendatavis/169f1c6fcd44885a2841b314b745fdd9.js"></script>
 <center>
-
-| Column    | No_Records    |
-|:------:   |:----------:   |
-|  NonD     |     14        |
-|  Dream    |     12        |
-|  Sleep    |      4        |
-|  Span     |      4        |
-|  Gest     |      4        |
-
-</center>
 <!-- HTML: Missing Data -->
 <div>
 	<style scoped>
@@ -201,7 +191,7 @@ Let's identify the columns with missing values and number of missing records in 
 		</tbody>
 	</table>
 </div>
-
+</center>
 <br/>
 Add Row_Index as a column and use it to identify missing rows in the plot. We need only missing columns from the dataframe. Also, let us binarize data by mapping missing values to 0 and non-missing values to 1.
 <br/>
