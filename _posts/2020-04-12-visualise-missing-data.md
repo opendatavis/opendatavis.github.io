@@ -140,13 +140,13 @@ Let's identify the columns with missing values and number of missing records in 
 <script src="https://gist.github.com/opendatavis/169f1c6fcd44885a2841b314b745fdd9.js"></script>
 <br/>
 
-| Column | No_Records |
-|:------:|:----------:|
-|  NonD  |     14     |
-|  Dream |     12     |
-|  Sleep |      4     |
-|  Span  |      4     |
-|  Gest  |      4     |
+| Column    | No_Records    |
+|:------:   |:----------:   |
+|  NonD     |     14        |
+|  Dream    |     12        |
+|  Sleep    |      4        |
+|  Span     |      4        |
+|  Gest     |      4        |
 
 <!-- HTML: Missing Data -->
 <div>
