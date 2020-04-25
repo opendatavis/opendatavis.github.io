@@ -13,15 +13,15 @@ Missing values in a data set is quite common and have significance effect on the
 
 The easiest way to know which category your missing data falls in to is by visualising it. Have you ever wondered how to visualise missing values in your data? Let's do it using basic python libraries `pandas` and `plotly`.
 
-### Let's start coding
-#### Import Libraries and read data
+#### Let's start coding
+##### Import Libraries and read data
 
-Import the libraries pandas and plotly graph objects.
+As mentioned above, let's import libraries pandas and plotly.
 <br/>
 <!-- Gist: Import libraries Start-->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 <!-- Gist: Import libraries End-->
-Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted on github. Missing values are represented as NaN.
+Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted on github. Missing values are represented as NA in the csv file. `pandas` converts NA to NaN.
 <br/>
 
 <!-- Gist: Read data Start-->
