@@ -22,7 +22,7 @@ authors:
     sai:
       name:           Sai Krupan Seela
       site:           https://opendatavis.github.io/
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         assets/images/avatar1.jpg
       bio:            "Hi, I am Sai"
       email:          krupan@outlook.com
       twitter:        https://twitter.com/krupanss
@@ -30,7 +30,7 @@ authors:
     anagha:
       name:           Anagha Manurkar
       site:           https://opendatavis.github.io/
-      avatar:         /assets/images/avatar2.jpg
+      avatar:         assets/images/avatar2.jpg
       bio:            "Hi, I am Anagha"
       email:          anaghamanurakar@gmail.com
       twitter:        https://twitter.com/anagha
