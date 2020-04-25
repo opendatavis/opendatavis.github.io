@@ -138,8 +138,7 @@ Let's identify the columns with missing values and number of missing records in 
 
 <!-- Gist: Find Missing data -->
 <script src="https://gist.github.com/opendatavis/169f1c6fcd44885a2841b314b745fdd9.js"></script>
-<br/>
-
+<center>
 | Column    | No_Records    |
 |:------:   |:----------:   |
 |  NonD     |     14        |
@@ -147,7 +146,7 @@ Let's identify the columns with missing values and number of missing records in 
 |  Sleep    |      4        |
 |  Span     |      4        |
 |  Gest     |      4        |
-
+</center>
 <!-- HTML: Missing Data -->
 <div>
 	<style scoped>
