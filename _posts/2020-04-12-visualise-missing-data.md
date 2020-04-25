@@ -119,7 +119,7 @@ Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatav
     </center>
 <!-- HTML: Head Data End-->
 
-**Identify Missing Values**
+##### Identify Missing Values
 
 Let's identify the columns with missing values and number of missing records in each of them.
 <br/>
@@ -242,7 +242,7 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
     </center>
 <!-- HTML: Binarize Data Table End-->
 
-#### Transform data
+##### Transform data
 Re-structure data using the pandas function `melt` to use it for plotting.
 <br/>
 <!-- Gist: Melt Data Start-->
@@ -324,7 +324,7 @@ Re-structure data using the pandas function `melt` to use it for plotting.
         </center>
 <!-- HTML: Melt Data Table End-->
 
-#### Plot - Heat map
+##### Plot - Heat map
 
 Plot the data as Heat map to visualise the pattern of missing and non-missing values. 
 <br/>
