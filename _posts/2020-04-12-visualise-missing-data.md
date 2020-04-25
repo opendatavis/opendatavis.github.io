@@ -3,7 +3,7 @@ layout: post
 title:  "Visualise Missing Data and identify the missing pattern in Python"
 author: sai
 categories: [ Python, tutorial, Plotly ]
-image: assets/images/home.jpg
+image: https://drive.google.com/uc?export=view&id=1F6abOcwAUtZLfzW2I178KwLlFpIZj6dC
 tags: [sticky]
 ---
 
