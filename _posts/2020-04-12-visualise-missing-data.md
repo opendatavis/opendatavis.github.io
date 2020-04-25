@@ -25,19 +25,11 @@ Import the libraries pandas and plotly graph objects.
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 
-{% highlight python %}
-import pandas as pd
-import plotly.graph_objects as go
-{% endhighlight %}
-
-
 Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
 <br/>
-<br/>
-
 <!-- Gist: Read data -->
 <script src="https://gist.github.com/opendatavis/40a95f13ea7fcb069d90f579f10ba5bf.js"></script>
-
+<br/>
 <!-- HTML: Head of data -->
 <div>
     <style scoped>
@@ -143,11 +135,10 @@ Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatav
 
 Let's identify the columns with missing values and number of missing records in each of them.
 <br/>
-<br/>
 
 <!-- Gist: Find Missing data -->
 <script src="https://gist.github.com/opendatavis/169f1c6fcd44885a2841b314b745fdd9.js"></script>
-
+<br/>
 
 <!-- HTML: Missing Data -->
 <div>
@@ -202,13 +193,13 @@ Let's identify the columns with missing values and number of missing records in 
 	</table>
 </div>
 
-
+<br/>
 Add Row_Index as a column and use it to identify missing rows in the plot. We need only missing columns from the dataframe. Also, let us binarize data by mapping missing values to 0 and non-missing values to 1.
 <br/>
-<br/>
+
 <!-- Gist: Binarize data -->
 <script src="https://gist.github.com/opendatavis/c4d507db6a6b4b0653643f901cf3bedd.js"></script>
-
+<br/>
 <div>
   <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -289,11 +280,10 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
 ### Transform data
 Re-structure data using the pandas function `melt` to use it for plotting.
 <br/>
-<br/>
 
 <!-- Gist: Melt Data -->
 <script src="https://gist.github.com/opendatavis/ba0490bfa635440d47b5863241791213.js"></script>
-
+<br/>
 <div>
   <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -394,7 +384,7 @@ Plot the data as Heat map to visualise the pattern of missing and non-missing va
 
 <!-- Plotly java script -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
-
+<br/>
 Here you go...!!!
 
 We have an interactive plot with row index on x-axis and columns on y-axis. We can hover over the plot to see the column, row index and the missing index which tells if the data is missing or not.
