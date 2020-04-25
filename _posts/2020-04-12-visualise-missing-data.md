@@ -22,9 +22,13 @@ Here I am recreating it in Python.
 
 Import the libraries pandas and plotly graph objects.
 <br/>
-<br/>
 <!-- Gist: Import libraries -->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
+
+{% highlight python %}
+import pandas as pd
+import plotly.graph_objects as go
+{% endhighlight %}
 
 
 Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
