@@ -72,8 +72,8 @@ lsi: False
 username: jekyller
 repo: jasper2
 branch: master
-relative_source: ./
-destination: ./
+relative_source: .//
+destination: .//
 production_url:  https://opendatavis.github.io/
 source_url:  https://opendatavis.github.io/
 
