@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Visualise Missing Data and identify the missing pattern in Python"
+title:  "Visualise Missing Data Patterns in Python"
 author: sai
 categories: [ Python, tutorial, Plotly ]
 image: assets/images/Missing_Data.jpg
