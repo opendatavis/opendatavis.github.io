@@ -360,7 +360,7 @@ We have an interactive plot with row index on x-axis and columns on y-axis. We c
 </div>
 <!-- HTML: Plotly chart End-->
 
-This is an interactive plot. It has options to zoom, pan, save as image. We can also cut thru the plot by dragging from point to point to zoom to specific area. 
+This is an interactive plot. It has options to zoom, pan, save as image. We can also cut thru the plot by dragging the cursor from point to point to zoom to specific area. 
 
 This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
 
