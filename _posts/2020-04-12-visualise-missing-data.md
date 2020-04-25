@@ -377,8 +377,6 @@ Re-structure data using the pandas function `melt` to use it for plotting.
 
 Plot the data as Heat map to visualise the pattern of missing and non-missing values. 
 <br/>
-<br/>
-
 <!-- Gist: Plot Heat map -->
 <script src="https://gist.github.com/opendatavis/48b37ed6e3140c6202daea7e90d25668.js"></script>
 
