@@ -27,6 +27,7 @@ Import the libraries pandas and plotly graph objects.
 <!-- Gist: Import libraries End-->
 Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
 <br/>
+
 <!-- Gist: Read data Start-->
 <script src="https://gist.github.com/opendatavis/40a95f13ea7fcb069d90f579f10ba5bf.js"></script>
 <!-- Gist: Read data End-->
