@@ -336,7 +336,6 @@ Plot the data as Heat map to visualise the pattern of missing and non-missing va
 <!-- Plotly: java script End-->
 <br/>
 Here you go...!!!
-
 We have an interactive plot with row index on x-axis and columns on y-axis. We can hover over the plot to see the column, row index and the missing index which tells if the data is missing or not.
 
 > Missing value of 0 indicates data is missing and 1 indicates data as not.
@@ -360,6 +359,8 @@ We have an interactive plot with row index on x-axis and columns on y-axis. We c
 </script>
 </div>
 <!-- HTML: Plotly chart End-->
+
+This is an interactive plot. It has options to zoom, pan, save as image. We can also cut thru the plot by dragging from point to point to zoom to specific area. 
 
 This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
 
