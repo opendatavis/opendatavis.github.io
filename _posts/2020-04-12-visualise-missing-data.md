@@ -133,39 +133,39 @@ Let's identify the columns with missing values and number of missing records in 
 <center>
     <div>
         <style type="text/css">
-            .tg  {border:none;border-collapse:collapse;border-spacing:0;}
-            .tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:4px 6px;
-              word-break:normal;}
-              .tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-                  overflow:hidden;padding:4px 6px;word-break:normal;}
-                  .tg .tg-3t77{background-color:#efefef;color:rgb(0, 0, 0);font-size:12px;text-align:right;vertical-align:top}
-                  .tg .tg-d1yv{border-color:#000000;color:rgb(0, 0, 0);font-size:12px;font-weight:bold;text-align:right;vertical-align:top}
-                  .tg .tg-tey3{color:rgb(0, 0, 0);font-size:12px;text-align:right;vertical-align:top}
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              overflow:hidden;padding:10px 5px;word-break:normal;}
+              .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+                  .tg .tg-g873{color:rgb(0, 0, 0);text-align:right;vertical-align:top}
+                  .tg .tg-zweo{color:rgb(0, 0, 0);font-weight:bold;text-align:right;vertical-align:top}
+                  .tg .tg-cmkb{background-color:rgb(239, 239, 239);color:rgb(0, 0, 0);text-align:right;vertical-align:top}
               </style>
               <table class="tg">
                   <tr>
-                    <th class="tg-d1yv">Column</th>
-                    <th class="tg-d1yv">No_Records</th>
+                    <th class="tg-zweo">Column</th>
+                    <th class="tg-zweo">No_Records</th>
                 </tr>
                 <tr>
-                    <td class="tg-3t77">NonD</td>
-                    <td class="tg-3t77">14</td>
+                    <td class="tg-cmkb">NonD</td>
+                    <td class="tg-cmkb">14</td>
                 </tr>
                 <tr>
-                    <td class="tg-tey3">Dream</td>
-                    <td class="tg-tey3">12</td>
+                    <td class="tg-g873">Dream</td>
+                    <td class="tg-g873">12</td>
                 </tr>
                 <tr>
-                    <td class="tg-3t77">Sleep</td>
-                    <td class="tg-3t77">4</td>
+                    <td class="tg-cmkb">Sleep</td>
+                    <td class="tg-cmkb">4</td>
                 </tr>
                 <tr>
-                    <td class="tg-tey3">Span</td>
-                    <td class="tg-tey3">4</td>
+                    <td class="tg-g873">Span</td>
+                    <td class="tg-g873">4</td>
                 </tr>
                 <tr>
-                    <td class="tg-3t77">Gest</td>
-                    <td class="tg-3t77">4</td>
+                    <td class="tg-cmkb">Gest</td>
+                    <td class="tg-cmkb">4</td>
                 </tr>
             </table>
         </div>
