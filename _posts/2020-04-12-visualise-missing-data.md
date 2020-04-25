@@ -138,41 +138,38 @@ Let's identify the columns with missing values and number of missing records in 
               word-break:normal;}
               .tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
                   overflow:hidden;padding:4px 6px;word-break:normal;}
-                  .tg .tg-8k1l{border-color:#ffffff;color:#000000;font-family:Verdana, Geneva, sans-serif !important;;font-size:12px;text-align:right;
-                      vertical-align:top}
-                      .tg .tg-n1yd{background-color:#ffffff;border-color:#ffffff;color:#000000;font-family:Verdana, Geneva, sans-serif !important;;
-                          font-size:12px;font-weight:bold;text-align:right;vertical-align:top}
-                          .tg .tg-bdy1{background-color:#efefef;border-color:#ffffff;color:#000000;font-family:Verdana, Geneva, sans-serif !important;;
-                              font-size:12px;text-align:right;vertical-align:top}
-                          </style>
-                          <table class="tg">
-                              <tr>
-                                <th class="tg-n1yd">Column</th>
-                                <th class="tg-n1yd">No_Records</th>
-                            </tr>
-                            <tr>
-                                <td class="tg-bdy1">NonD</td>
-                                <td class="tg-bdy1">14</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-8k1l">Dream</td>
-                                <td class="tg-8k1l">12</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-bdy1">Sleep</td>
-                                <td class="tg-bdy1">4</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-8k1l">Span</td>
-                                <td class="tg-8k1l">4</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-bdy1">Gest</td>
-                                <td class="tg-bdy1">4</td>
-                            </tr>
-                        </table>
-                    </div>
-                </center>
+                  .tg .tg-g873{color:rgb(0, 0, 0);text-align:right;vertical-align:top}
+                  .tg .tg-7rqb{border-color:#000000;color:rgb(0, 0, 0);font-weight:bold;text-align:right;vertical-align:top}
+                  .tg .tg-h09j{background-color:#efefef;color:rgb(0, 0, 0);text-align:right;vertical-align:top}
+              </style>
+              <table class="tg">
+                  <tr>
+                    <th class="tg-7rqb">Column</th>
+                    <th class="tg-7rqb">No_Records</th>
+                </tr>
+                <tr>
+                    <td class="tg-h09j">NonD</td>
+                    <td class="tg-h09j">14</td>
+                </tr>
+                <tr>
+                    <td class="tg-g873">Dream</td>
+                    <td class="tg-g873">12</td>
+                </tr>
+                <tr>
+                    <td class="tg-h09j">Sleep</td>
+                    <td class="tg-h09j">4</td>
+                </tr>
+                <tr>
+                    <td class="tg-g873">Span</td>
+                    <td class="tg-g873">4</td>
+                </tr>
+                <tr>
+                    <td class="tg-h09j">Gest</td>
+                    <td class="tg-h09j">4</td>
+                </tr>
+            </table>
+        </div>
+    </center>
 <br/>
 <!-- HTML: Missing Data Table End-->
 Add Row_Index as a column and use it to identify missing rows in the plot. We need only missing columns from the dataframe. Also, let us binarize data by mapping missing values to 0 and non-missing values to 1.
