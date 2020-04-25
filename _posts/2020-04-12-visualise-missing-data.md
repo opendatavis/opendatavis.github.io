@@ -142,46 +142,47 @@ Let's identify the columns with missing values and number of missing records in 
 <center>
 <div>
     <style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:6px 6px;
+.tg  {border-collapse:collapse;border-color:black;border-spacing:0;border-style:solid;border-width:1px;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:4px 6px;
   word-break:normal;}
 .tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:6px 6px;word-break:normal;}
-.tg .tg-k4ca{border-color:#ffffff;color:#000000;font-family:Tahoma, Geneva, sans-serif !important;;font-size:12px;text-align:right;
+  overflow:hidden;padding:4px 6px;word-break:normal;}
+.tg .tg-8k1l{border-color:#ffffff;color:#000000;font-family:Verdana, Geneva, sans-serif !important;;font-size:12px;text-align:right;
   vertical-align:top}
-.tg .tg-o00l{border-color:#ffffff;color:#000000;font-family:Tahoma, Geneva, sans-serif !important;;font-size:12px;font-weight:bold;
-  text-align:right;vertical-align:top}
-.tg .tg-an22{background-color:#efefef;border-color:#ffffff;color:#000000;font-family:Tahoma, Geneva, sans-serif !important;;
+.tg .tg-n1yd{background-color:#ffffff;border-color:#ffffff;color:#000000;font-family:Verdana, Geneva, sans-serif !important;;
+  font-size:12px;font-weight:bold;text-align:right;vertical-align:top}
+.tg .tg-bdy1{background-color:#efefef;border-color:#ffffff;color:#000000;font-family:Verdana, Geneva, sans-serif !important;;
   font-size:12px;text-align:right;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-o00l">Column</th>
-    <th class="tg-o00l">No_Records</th>
+    <th class="tg-n1yd">Column</th>
+    <th class="tg-n1yd">No_Records</th>
   </tr>
   <tr>
-    <td class="tg-an22">NonD</td>
-    <td class="tg-an22">14</td>
+    <td class="tg-bdy1">NonD</td>
+    <td class="tg-bdy1">14</td>
   </tr>
   <tr>
-    <td class="tg-k4ca">Dream</td>
-    <td class="tg-k4ca">12</td>
+    <td class="tg-8k1l">Dream</td>
+    <td class="tg-8k1l">12</td>
   </tr>
   <tr>
-    <td class="tg-an22">Sleep</td>
-    <td class="tg-an22">4</td>
+    <td class="tg-bdy1">Sleep</td>
+    <td class="tg-bdy1">4</td>
   </tr>
   <tr>
-    <td class="tg-k4ca">Span</td>
-    <td class="tg-k4ca">4</td>
+    <td class="tg-8k1l">Span</td>
+    <td class="tg-8k1l">4</td>
   </tr>
   <tr>
-    <td class="tg-an22">Gest</td>
-    <td class="tg-an22">4</td>
+    <td class="tg-bdy1">Gest</td>
+    <td class="tg-bdy1">4</td>
   </tr>
 </table>
 </div>
 </center>
+<br/>
 
 <center>
 <!-- HTML: Missing Data -->
