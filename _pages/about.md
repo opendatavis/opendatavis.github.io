@@ -4,7 +4,7 @@ permalink: "/about.html"
 comments: true
 ---
 
-####Welcome to the OpenDataVis!
+#### Welcome to the OpenDataVis!
 
 Data Visualizations enhance the presentation of data and insights derived from it. Industry has several visualization tools mostly dominated by proprietary softwares.
 
