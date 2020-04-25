@@ -7,25 +7,21 @@ image: assets/images/Missing_Data.jpg
 tags: [sticky]
 ---
 
-Missing values in a data set is quite common and have significance effect on the analysis and machine learning model training.
+Missing values in a data set is quite common and have significance effect on the analysis and training of a machine learning model.
 
 > Missing data can be either "Missing At Random (MAR)" or "Missing Completely At Random (MCAR)" or "Missing Not At Random (MNAR)"
 
-The easiest way to check which category your missing data falls in to is by visualising it. Have you ever wondered how to visualise missing values in your data? Let's do it using basic `pandas` and `plotly` functions. 
-
-This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
-
-Here I am recreating it in Python.
+The easiest way to know which category your missing data falls in to is by visualising it. Have you ever wondered how to visualise missing values in your data? Let's do it using basic python libraries `pandas` and `plotly`.
 
 ## Let's start coding
-### Import Libraries
+### Import Libraries and read data
 
 Import the libraries pandas and plotly graph objects.
 <br/>
 <!-- Gist: Import libraries Start-->
 <script src="https://gist.github.com/opendatavis/108f3ebfc2bf4835329340fd354d58f1.js"></script>
 <!-- Gist: Import libraries End-->
-Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted in github. Missing values are represented as NaN.
+Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatavis.github.io/master/Data/Sleep_Data.csv) hosted on github. Missing values are represented as NaN.
 <br/>
 
 <!-- Gist: Read data Start-->
@@ -365,4 +361,6 @@ We have an interactive plot with row index on x-axis and columns on y-axis. We c
 </div>
 <!-- HTML: Plotly chart End-->
 
-Plotly provides several customization options to the charts interactively. You can play around and make the charts more interesting. 
+This is inspired from a post by fellow Kaggler [AiO](https://www.kaggle.com/notaapple) in which he created a function to Visualize missing data in R. It is very simple yet quick and powerful.
+
+Here, I have recreated it in Python.
