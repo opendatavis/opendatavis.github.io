@@ -133,39 +133,39 @@ Let's identify the columns with missing values and number of missing records in 
 <center>
     <div>
         <style type="text/css">
-            .tg  {border-collapse:collapse;border-color:black;border-spacing:0;border-style:solid;border-width:1px;}
+            .tg  {border:none;border-collapse:collapse;border-spacing:0;}
             .tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:4px 6px;
               word-break:normal;}
               .tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
                   overflow:hidden;padding:4px 6px;word-break:normal;}
-                  .tg .tg-g873{color:rgb(0, 0, 0);text-align:right;vertical-align:top}
-                  .tg .tg-7rqb{border-color:#000000;color:rgb(0, 0, 0);font-weight:bold;text-align:right;vertical-align:top}
-                  .tg .tg-h09j{background-color:#efefef;color:rgb(0, 0, 0);text-align:right;vertical-align:top}
+                  .tg .tg-3t77{background-color:#efefef;color:rgb(0, 0, 0);font-size:12px;text-align:right;vertical-align:top}
+                  .tg .tg-d1yv{border-color:#000000;color:rgb(0, 0, 0);font-size:12px;font-weight:bold;text-align:right;vertical-align:top}
+                  .tg .tg-tey3{color:rgb(0, 0, 0);font-size:12px;text-align:right;vertical-align:top}
               </style>
               <table class="tg">
                   <tr>
-                    <th class="tg-7rqb">Column</th>
-                    <th class="tg-7rqb">No_Records</th>
+                    <th class="tg-d1yv">Column</th>
+                    <th class="tg-d1yv">No_Records</th>
                 </tr>
                 <tr>
-                    <td class="tg-h09j">NonD</td>
-                    <td class="tg-h09j">14</td>
+                    <td class="tg-3t77">NonD</td>
+                    <td class="tg-3t77">14</td>
                 </tr>
                 <tr>
-                    <td class="tg-g873">Dream</td>
-                    <td class="tg-g873">12</td>
+                    <td class="tg-tey3">Dream</td>
+                    <td class="tg-tey3">12</td>
                 </tr>
                 <tr>
-                    <td class="tg-h09j">Sleep</td>
-                    <td class="tg-h09j">4</td>
+                    <td class="tg-3t77">Sleep</td>
+                    <td class="tg-3t77">4</td>
                 </tr>
                 <tr>
-                    <td class="tg-g873">Span</td>
-                    <td class="tg-g873">4</td>
+                    <td class="tg-tey3">Span</td>
+                    <td class="tg-tey3">4</td>
                 </tr>
                 <tr>
-                    <td class="tg-h09j">Gest</td>
-                    <td class="tg-h09j">4</td>
+                    <td class="tg-3t77">Gest</td>
+                    <td class="tg-3t77">4</td>
                 </tr>
             </table>
         </div>
