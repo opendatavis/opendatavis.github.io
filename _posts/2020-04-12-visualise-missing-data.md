@@ -29,7 +29,7 @@ Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatav
 <br/>
 <!-- Gist: Read data -->
 <script src="https://gist.github.com/opendatavis/40a95f13ea7fcb069d90f579f10ba5bf.js"></script>
-<br/>
+<center>
 <!-- HTML: Head of data -->
 <div>
     <style scoped>
@@ -130,6 +130,7 @@ Read the dataset [Sleep](https://raw.githubusercontent.com/opendatavis/opendatav
         </tbody>
     </table>
 </div>
+</center>
 
 ### Identify Missing Values
 
@@ -198,7 +199,7 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
 
 <!-- Gist: Binarize data -->
 <script src="https://gist.github.com/opendatavis/c4d507db6a6b4b0653643f901cf3bedd.js"></script>
-<br/>
+<center>
 <div>
   <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -274,7 +275,7 @@ Add Row_Index as a column and use it to identify missing rows in the plot. We ne
     </tbody>
   </table>
 </div>
-
+</center>
 
 ### Transform data
 Re-structure data using the pandas function `melt` to use it for plotting.
@@ -282,7 +283,7 @@ Re-structure data using the pandas function `melt` to use it for plotting.
 
 <!-- Gist: Melt Data -->
 <script src="https://gist.github.com/opendatavis/ba0490bfa635440d47b5863241791213.js"></script>
-<br/>
+<center>
 <div>
   <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -370,7 +371,7 @@ Re-structure data using the pandas function `melt` to use it for plotting.
     </tbody>
   </table>
 </div>
-
+</center>
 
 ### Plot - Heat map
 
