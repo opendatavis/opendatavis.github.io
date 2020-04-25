@@ -140,6 +140,50 @@ Let's identify the columns with missing values and number of missing records in 
 <!-- Gist: Find Missing data -->
 <script src="https://gist.github.com/opendatavis/169f1c6fcd44885a2841b314b745fdd9.js"></script>
 <center>
+<div>
+    <style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:6px 6px;
+  word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:6px 6px;word-break:normal;}
+.tg .tg-k4ca{border-color:#ffffff;color:#000000;font-family:Tahoma, Geneva, sans-serif !important;;font-size:12px;text-align:right;
+  vertical-align:top}
+.tg .tg-o00l{border-color:#ffffff;color:#000000;font-family:Tahoma, Geneva, sans-serif !important;;font-size:12px;font-weight:bold;
+  text-align:right;vertical-align:top}
+.tg .tg-an22{background-color:#efefef;border-color:#ffffff;color:#000000;font-family:Tahoma, Geneva, sans-serif !important;;
+  font-size:12px;text-align:right;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-o00l">Column</th>
+    <th class="tg-o00l">No_Records</th>
+  </tr>
+  <tr>
+    <td class="tg-an22">NonD</td>
+    <td class="tg-an22">14</td>
+  </tr>
+  <tr>
+    <td class="tg-k4ca">Dream</td>
+    <td class="tg-k4ca">12</td>
+  </tr>
+  <tr>
+    <td class="tg-an22">Sleep</td>
+    <td class="tg-an22">4</td>
+  </tr>
+  <tr>
+    <td class="tg-k4ca">Span</td>
+    <td class="tg-k4ca">4</td>
+  </tr>
+  <tr>
+    <td class="tg-an22">Gest</td>
+    <td class="tg-an22">4</td>
+  </tr>
+</table>
+</div>
+</center>
+
+<center>
 <!-- HTML: Missing Data -->
 <div>
 	<style scoped>
